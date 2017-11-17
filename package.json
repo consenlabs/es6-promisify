@@ -10,9 +10,7 @@
     "promisify"
   ],
   "license": "MIT",
-  "dependencies": {
-    "es6-promise": "^4.0.3"
-  },
+  "dependencies": {},
   "scripts": {
     "pretest": "./node_modules/eslint/bin/eslint.js ./lib/*.js ./tests/*.js",
     "test": "gulp && nodeunit tests"
